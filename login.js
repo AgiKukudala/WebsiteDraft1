@@ -9,7 +9,7 @@ document.getElementById('adminLoginForm').addEventListener('submit', (event) => 
 
     if (username === adminUsername && password === adminPassword) {
         localStorage.setItem('userRole', 'admin');
-        window.location.href = 'index.html';
+        window.location.href = 'admin.html';
     } else {
         document.getElementById('loginMessage').innerText = 'Invalid admin credentials!';
     }

@@ -39,7 +39,7 @@ body {
   display: flex;
 
   border-radius: 10px;
-  background-color: #7bafd4;
+  background-color: #373c4f;
 }
 .left {
   width: 60%;
@@ -53,7 +53,7 @@ body {
   flex-direction: column;
   flex-wrap: wrap;
   justify-content: space-between;
-  color: #f5f5f5;
+  color: #878895;
   border-radius: 5px;
   background-color: #fff;
 }
@@ -535,7 +535,7 @@ body {
   .right .today-date {
     padding: 20px;
   }
-} 
+}
 
 .credits {
   position: absolute;
@@ -546,7 +546,7 @@ body {
   padding: 10px;
   font-size: 24px;
   color: #fff;
-  background-color:#e67a7a;
+  background-color: #b38add;
 }
 .credits a {
   color: #fff;

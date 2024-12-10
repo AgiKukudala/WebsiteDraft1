@@ -4,8 +4,8 @@ document.getElementById('adminLoginForm').addEventListener('submit', (event) => 
     const username = document.getElementById('adminUsername').value;
     const password = document.getElementById('adminPassword').value;
 
-    const adminUsername = 'admin';
-    const adminPassword = 'adminpass'; // Use secure storage for credentials in production
+    const adminUsername = '8KWmTwQ7q6bwb6me2p';
+    const adminPassword = 'fcsPF3QBsT923wJ38P'; // Use secure storage for credentials in production
 
     if (username === adminUsername && password === adminPassword) {
         localStorage.setItem('userRole', 'admin');
